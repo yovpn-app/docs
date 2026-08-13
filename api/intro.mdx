@@ -1,0 +1,32 @@
+---
+title: "Introduction"
+description: "Welcome to the YoVPN API reference."
+---
+
+The YoVPN API lets you list VPN servers and manage user sessions programmatically.
+
+## Base URL
+
+```text
+https://api.yovpn.online/v1
+```
+
+## Authentication
+
+All requests require a bearer token:
+
+```bash
+Authorization: Bearer <YOUR_API_KEY>
+```
+
+## Endpoints
+
+<CardGroup cols={2}>
+  <Card title="List servers" icon="server" href="/api-reference/servers/list-vpn-servers">
+    Browse available VPN servers.
+  </Card>
+
+  <Card title="Start session" icon="play" href="/api-reference/sessions/start-a-vpn-session">
+    Create a new VPN session.
+  </Card>
+</CardGroup>

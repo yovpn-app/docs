@@ -31,7 +31,25 @@
           "icon": "newspaper"
         }
       ]
-    }
+    },
+    "tabs": [
+      {
+        "tab": "Guides",
+        "pages": [
+          {
+            "group": "Getting Started",
+            "pages": [
+              "index",
+              "start"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API Reference",
+        "href": "/docs/openapi.json"
+      }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",
